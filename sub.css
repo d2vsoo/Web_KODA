@@ -1,11 +1,350 @@
+@media screen and (max-width: 1200px) {
+
+    /* header영역 */
+    h1 {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    /* menu */
+
+    /* 메뉴영역 */
+    .nav {
+        height: 50px;
+    }
+
+    /* 메뉴_메인 영역 */
+    .mainmenu>li {
+        line-height: 50px;
+        font-size: 14px;
+    }
+
+    /* 메뉴_서브메뉴 영역 */
+
+    .subnav>label {
+        right: 15px;
+    }
+
+    /* 메뉴_햄버거버튼 */
+    .subnav>label {
+        width: 45px;
+        height: 40px;
+        top: 128px;
+        right: 40px;
+    }
+
+    /* 메뉴_사이드 메뉴 영역 */
+    .sidemenu {
+        top: 180px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .sidemenu>li {
+        font-size: 13px;
+    }
+
+    .sidemenu>li>a:first-of-type {
+        font-size: 15px;
+    }
+
+    /* main영역 */
+
+    main {
+        height: 360px;
+    }
+
+    .mainWrap>ul>li {
+        height: 360px;
+    }
+
+    .labelWrap {
+        width: 60px;
+        height: 25px;
+        bottom: 10px;
+    }
+
+    .labelWrap>label {
+        width: 8px;
+        height: 8px;
+    }
+
+    .callWrap {
+        display: none;
+    }
+
+    /* 주요서비스 영역 */
+    .service {
+        width: 100%;
+        height: 330px;
+    }
+
+    .service>h2 {
+        font-size: 22px;
+        padding: 0;
+        margin: 15px 0 40px 0;
+    }
+
+    .iconWrap {
+        width: 12%;
+    }
+
+    .icon {
+        height: 50%;
+    }
+
+    .iconWrap p {
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+    }
+
+    /* article영역 */
+    /* article01영역 */
+
+    #space {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .article01Wrap {
+        height: 450px;
+    }
+
+    .arlabelWrap {
+        height: 50px;
+    }
+
+    .arlabelWrap>label {
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+        margin: 10px 20px;
+    }
+
+    .arlabelWrap>label:hover {
+        font-size: 13px;
+    }
+
+    .tabWrap>.box {
+        height: 400px;
+        padding: 20px;
+    }
+
+    .box>h3 {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .box>h3:hover {
+        font-size: 15px;
+    }
+
+    .box01>div {
+        float: left;
+        width: 45%;
+        height: 75%;
+        margin: 40px 15px;
+        padding: 15px 20px;
+    }
+
+    .box01>div p:nth-of-type(1),
+    .box01>div p:nth-of-type(2),
+    .box01>div p {
+        font-size: 11px;
+    }
+
+    .box01>div p:last-of-type {
+        font-weight: 800;
+    }
+
+    .box>h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .box02>div,
+    .box03>div {
+        width: 45%;
+        padding: 15px;
+        line-height: 1.4;
+    }
+
+    .box02>div p:nth-of-type(1),
+    .box03>div p:nth-of-type(1) {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .box02>div p,
+    .box03>div p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /* article02영역 */
+    .article02 {
+        height: 450px;
+        margin: 40px 0;
+        padding-top: 30px;
+    }
+
+    .article02>section {
+        width: 95%;
+    }
+
+    .article02 h2 {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+
+    /* 슬라이드관련 */
+    .article02 .slideWrap {
+        height: 350px;
+    }
+
+    .article02 .slideWrap li {
+        height: 350px;
+    }
+
+    /* 좌우슬라이드버튼 */
+    .article02>section>.control {
+        font-size: 24px;
+    }
+
+    /* article03영역 */
+    .article03 {
+        height: 450px;
+    }
+
+    .article03h2 {
+        font-size: 22px;
+        margin: 30px auto;
+    }
+
+    .dataWrap {
+        width: 30%;
+        height: 75%;
+        float: left;
+        margin-left: 40px;
+    }
+
+    .ar03title {
+        font-size: 16px;
+    }
+
+    .data {
+        margin: 15px auto;
+    }
+
+    .data h2 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .datadata {
+        height: 40px;
+        font-size: 14px;
+        margin: -10px auto;
+        line-height: 15px;
+    }
+
+    .datadata>p:last-of-type {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    /* 협약기관tab영역 */
+    .agWrapWrap {
+        height: 75%;
+    }
+
+    .agWrapWrap>h2 {
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .agWrap {
+        height: 80%;
+    }
+
+    .aglabel>label {
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+
+    .agbox img {
+        float: left;
+        width: 20%;
+        margin: 30px 80px;
+        margin-left: 80px;
+    }
+
+    /* article04영역 */
+    .article04 {
+        height: 450px;
+    }
+
+    .article04h2 {
+        font-size: 22px;
+    }
+
+    .arboxWrap {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .arbox01>h3, .arbox02>h3, .arbox03>h3 {
+        font-size: 14px;
+    }
+
+    .arbox01>p, .arbox02>p, .arbox03>p {
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .arbox01>div, .arbox02>div, .arbox03>div {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .arbox04 {
+        margin-top: 40px;
+    }
+
+    .arbox04>h3 {
+        font-size: 14px;
+        padding: 10px 0;
+        margin: 0 0 10px 15px;
+    }
+
+    .arbox04>p {
+        font-size: 13px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .arbox04 iframe {
+        width: 100%;
+    }
+}
+
+/* ==================================================================== */
+
 @media screen and (max-width: 740px) {
+
     /* header영역 */
     h1 {
         width: 150px;
         margin-left: 10px;
     }
 
-    .util> p {
+    .util>p {
         display: none;
     }
 
@@ -13,7 +352,7 @@
         display: none;
     }
 
-    .subnav> label {
+    .subnav>label {
         right: 30px;
     }
 
@@ -22,17 +361,18 @@
         height: 400px;
     }
 
-    .sidemenu> li {
+    .sidemenu>li {
         font-size: 14px;
     }
 
-    .sidemenu> li> a:first-of-type {
+    .sidemenu>li>a:first-of-type {
         font-size: 16px;
     }
 
     main {
         height: 250px;
     }
+
     .mainWrap>ul>li {
         height: 280px;
     }
@@ -43,7 +383,7 @@
         bottom: 45px;
     }
 
-    .labelWrap> label {
+    .labelWrap>label {
         width: 10px;
         height: 10px;
     }
@@ -77,9 +417,10 @@
         font-size: 20px;
         text-align: center;
     }
-
-    
 }
+
+
+/* ==================================================================== */
 
 @media screen and (max-width:530px) {
 
